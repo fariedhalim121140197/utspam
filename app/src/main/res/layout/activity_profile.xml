@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framenav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/menu_list"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/itemEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/email1"
+            android:textSize="20sp"
+            android:layout_marginTop="300dp" />
+
+        <TextView
+            android:id="@+id/itemEmail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/email"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/itemusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/username"
+            android:textSize="20sp"
+            android:layout_marginTop="350dp" />
+
+        <TextView
+            android:id="@+id/itemusername1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="350dp"
+            android:text="@string/username"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/itemgitname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/gitname"
+            android:textSize="20sp"
+            android:layout_marginTop="400dp" />
+
+        <TextView
+            android:id="@+id/itemgitname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="400dp"
+            android:text="@string/gitname"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/itemnim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/nim"
+            android:textSize="20sp"
+            android:layout_marginTop="450dp" />
+
+        <TextView
+            android:id="@+id/itemnim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="450dp"
+            android:text="@string/nim"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732992578178",
+    "project_id": "pamdatabase-e856e",
+    "storage_bucket": "pamdatabase-e856e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732992578178:android:d2b8ba108af945f1f2ca9b",
+        "android_client_info": {
+          "package_name": "com.example.utspam121140197"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGgfn9VA4ZVIk9nC4UuwPIU_NAMNQfWKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

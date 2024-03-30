@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UTS PAM 121140197</string>
+    <string name="login">Login</string>
+    <string name="register">Registrasi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="gitname">Github Name</string>
+    <string name="nim">NIM</string>
+    <string name="email">E-Mail</string>
+    <string name="zero">0</string>
+    <string name="id">ID: </string>
+    <string name="email1">E-Mail: </string>
+    <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
