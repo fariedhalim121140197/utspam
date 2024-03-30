@@ -71,9 +71,9 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun saveSession(username: String, password: String){
-        sessionSaver.put(SessionData.PREF_USERNAME, username )
-        sessionSaver.put(SessionData.PREF_PASSWORD, password )
+    private fun saveSession(email: String, password: String){
+        sessionSaver.put(SessionData.PREF_EMAIL, email)
+        sessionSaver.put(SessionData.PREF_PASSWORD, password)
         sessionSaver.put(SessionData.PREF_IS_LOGIN, true)
     }
 

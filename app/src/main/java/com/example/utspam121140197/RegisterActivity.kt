@@ -39,7 +39,8 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun updateData(username: String, email: String, gitname: String, nim: String, password: String) {
-
+        var usernameTemp = SessionData.PREF_USERNAME
+        usernameTemp = username
         database = FirebaseDatabase.getInstance().getReference("Users")
         val user = mapOf<String, String>(
             "email" to email,
